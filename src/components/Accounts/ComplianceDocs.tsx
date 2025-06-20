@@ -10,7 +10,7 @@ export function ComplianceDocs() {
 
   return (
     <div className="sm:overflow-x-visible overflow-x-auto rounded-2xl w-full overflow-x-auto flex flex-col justify-center">
-      <div className="flex gap-2 items-center mb-2">
+      <div className="flex items-center justify-between lg:flex-col lg:items-start gap-2  mb-2">
         <h2 className="text-[24px] lg:text-[28px] font-medium">
           Compliance & Documentation
         </h2>

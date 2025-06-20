@@ -15,7 +15,7 @@ export default function AccountPage() {
       <PerformanceMetrics />
       <Policies />
 
-      <div className="flex flex-col lg:flex-row items-stretch gap-6 sm:gap-10">
+      <div className="flex flex-col lg:flex-row items-stretch gap-6 sm:gap-10 lg:items-end">
         <AccountStatus currentStep={5} />
         <ComplianceDocs />
       </div>

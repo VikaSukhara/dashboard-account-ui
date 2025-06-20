@@ -1,5 +1,3 @@
-чи норм писати таке??? типі для тестового. чат джпт робив мені код??
-
 ## 🛠️ Technologies Used
 
 - Next.js 14 (App Router)
@@ -11,8 +9,8 @@
 
 ## 🤖 AI & Assistive Tools Used
 
-- ChatGPT - for layout structure from photo
 - [ImageColorPicker.com](https://imagecolorpicker.com/) — used to extract colors from screenshots
+- ChatGPT - used to help visualize layout dimensions based on the provided screenshots.
 
 ## 📄 Project Description
 
@@ -21,6 +19,7 @@ This is a responsive web interface developed based on provided UI design screens
 The application includes:
 
 ### 🖥️ Dashboard View
+
 - Navigation bar with active tab indication
 - Work Queue with tabs and a data table
 - Portfolio Goals block with multiple progress bar types
@@ -29,10 +28,27 @@ The application includes:
 - My Accounts table with filters, statuses, and triage indicators
 
 ### 📋 Account Page
+
 - Account header with general information
-- Blocks for Performance Metrics, Policies, Compliance, Winnability, Communication, and Policies Table (WIP)
+- Blocks for Performance Metrics, Policies, Compliance, Winnability, Communication, and Policies Table
 
 The project is built with a modular, component-based architecture and mock JSON data.  
-It supports responsiveness (WIP) and basic interactivity such as tab switching, active state highlighting, and visual indicators.
+It supports responsiveness and basic interactivity such as tab switching, active state highlighting, and visual indicators.
 
-Deployed on Vercel.
+Deployed on Vercel
+
+## 🌐 Live Demo
+
+- GitHub Repo: [dashboard-account-ui](https://github.com/VikaSukhara/dashboard-account-ui)
+- Deployed App: [View on Vercel](https://dashboard-account-ui-spww-4tae069ph-vikas-projects-f7fcee17.vercel.app/)
+
+## 🚀 Getting Started
+
+1. Clone the repo  
+   `git clone https://github.com/VikaSukhara/dashboard-account-ui.git`
+
+2. Install dependencies  
+   `npm install`
+
+3. Run locally  
+   `npm run dev`

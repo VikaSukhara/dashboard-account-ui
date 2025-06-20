@@ -56,7 +56,7 @@ export function PerformanceMetrics() {
           ({ title, mainValue, subText, linkText, linkHref }, index) => (
             <div
               key={index}
-              className="bg-[#1e2233] p-4 rounded-xl w-[280px] flex flex-col justify-between"
+              className="bg-[#1e2233] p-4 rounded-xl lg:w-[280px] w-full flex flex-col justify-between"
               style={{ height: "200px" }}
             >
               <div>
@@ -103,7 +103,7 @@ export function PerformanceMetrics() {
           <p className="text-[20px] text-gray-300 mb-2 max-h-[150px]">
             Exposure Distribution
           </p>
-          <div className="md:space-y-2">
+          <div className="space-y-1">
             {exposures.map(({ label, percent }, i) => (
               <PositionBar
                 key={i}
