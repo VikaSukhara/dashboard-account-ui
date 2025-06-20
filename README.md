@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+чи норм писати таке??? типі для тестового. чат джпт робив мені код??
 
-## Getting Started
+## 🛠️ Technologies Used
 
-First, run the development server:
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Heroicons
+- React Hooks
+- Vercel (for deployment)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🤖 AI & Assistive Tools Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ChatGPT - for layout structure from photo
+- [ImageColorPicker.com](https://imagecolorpicker.com/) — used to extract colors from screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 Project Description
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This is a responsive web interface developed based on provided UI design screenshots.
 
-## Learn More
+The application includes:
 
-To learn more about Next.js, take a look at the following resources:
+### 🖥️ Dashboard View
+- Navigation bar with active tab indication
+- Work Queue with tabs and a data table
+- Portfolio Goals block with multiple progress bar types
+- Quick Actions block with styled buttons
+- Market Intelligence block with news items
+- My Accounts table with filters, statuses, and triage indicators
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📋 Account Page
+- Account header with general information
+- Blocks for Performance Metrics, Policies, Compliance, Winnability, Communication, and Policies Table (WIP)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project is built with a modular, component-based architecture and mock JSON data.  
+It supports responsiveness (WIP) and basic interactivity such as tab switching, active state highlighting, and visual indicators.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployed on Vercel.
